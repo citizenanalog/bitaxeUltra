@@ -42,7 +42,7 @@ bitaxe is a fully open source hardware Bitcoin ASIC miner.
 ## Hardware
 - [BM1397 from random AliExpress seller](https://www.aliexpress.com/item/3256802274958527.html). I got the "AG" variant. Not really sure what the difference is.
 - [40x40mm heatsink and 5V fan](https://www.aliexpress.com/item/2251832861666365.html) from a random AliExpress seller. At least half of these arrived broken in some way. But they are cheap and the working ones do keep the BM1387's nice and cool when used with some thermal compound.
-    - Swap this fan with the [Noctua NF-A4x10](https://noctua.at/en/products/fan/nf-a4x10-pwm) 5V 4-Pin fan for a much more pleasant experience.
+    - Swap this fan with the [Noctua NF-A4x10 5V](https://noctua.at/en/products/fan/nf-a4x10-5v) 5V 4-Pin fan for a much more pleasant experience.
 - The BM1397 serial port is 1.8V. These pins are broken out, but the main idea is to communicate with the BM1397 from the ESP32
 - Level shifters to interface the 1.8V BM1397 with the 3.3V ESP32. These pins are also broken out.
 - [KiCad 7](https://www.kicad.org) design files
